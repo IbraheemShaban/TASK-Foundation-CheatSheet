@@ -19,7 +19,7 @@ In CSS, there are 3 types of **SELECTORS**
 ### Tags
 
 ```css
-_______________ {
+h1 {
   /* This will change the styling for every h1 tag in the linked html file */
 }
 ```
@@ -27,7 +27,7 @@ _______________ {
 ### Classes
 
 ```css
-_______________ {
+.class-name {
   /* This will change the styling for every tag 
     in the linked html file that implemented 
     the class container. 
@@ -41,7 +41,7 @@ _______________ {
 ### Ids
 
 ```css
-_______________ {
+#id-name {
   /* This will change the styling for every tag 
     in the linked html file that implemented 
     the id box1. 
@@ -65,39 +65,39 @@ In CSS, we use the Kebab case (separate each word with a dash `-`)
 
 ```css
 /*To change the background color*/
-___: ___;
+background-color: colorName;
 
 /*To change the font color*/
-___: ___;
+color: colorName;
 
 /*To change the border color*/
-___: ___;
+border-color: colorName;
 ```
 
 ### Box Model
 
 ```css
 /*To add padding  */
-___: ___;
+padding: numberpx;
 
 /*To add margin */
-___: ___;
+margin: numberpx;
 
 /*To add border */
-___: ___;
+border: numberpx;
 ```
 
 ### Font
 
 ```css
 /*To change the font size */
-___: ___;
+font-size: numberpx;
 
 /*To change the font family  */
-___: ___;
+font-family: fontName;
 
 /*To change the font width */
-___: ___;
+font-stretch: num%;
 ```
 
 ### Sizes
