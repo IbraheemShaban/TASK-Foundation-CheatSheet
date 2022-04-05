@@ -41,7 +41,7 @@ h1 {
 ### Ids
 
 ```css
-#id-name {
+#box1 {
   /* This will change the styling for every tag 
     in the linked html file that implemented 
     the id box1. 
@@ -97,7 +97,7 @@ font-size: numberpx;
 font-family: fontName;
 
 /*To change the font width */
-font-stretch: num%;
+font-width: num%;
 ```
 
 ### Sizes

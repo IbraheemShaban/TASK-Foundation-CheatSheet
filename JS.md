@@ -323,7 +323,7 @@ function foo() {}
 // the arrow function way
 const foo = () => {};
 const foo = (x) => {};
-const foo = () => ;
+const foo = (x) => console.log(x);
 ```
 
 ### Iteration Methods
